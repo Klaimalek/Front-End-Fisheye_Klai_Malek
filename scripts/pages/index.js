@@ -23,7 +23,8 @@
         ]
         // et bien retourner le tableau photographers seulement une fois récupéré
         return ({
-            photographers: [...photographers, ...photographers, ...photographers]})
+            photographers: [...photographers, ...photographers, ...photographers]});
+        
     }
 
     async function displayData(photographers) {
